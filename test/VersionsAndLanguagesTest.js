@@ -50,6 +50,7 @@ var testDocuments = {
     vi: require('./testdata/vi'),
     zh: require('./testdata/zh'),
     el: require('./testdata/el'),
+    pl: require('./testdata/pl'),
 };
 
 lunrVersions.forEach(function (lunrVersion) {

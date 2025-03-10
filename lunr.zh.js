@@ -65,7 +65,7 @@
     /* register specific locale function */
     lunr.zh = function() {
       nodejiebaDictJson && nodejieba.load(nodejiebaDictJson)
-      
+
       this.pipeline.reset();
       this.pipeline.add(
         lunr.zh.trimmer,
